@@ -10,6 +10,7 @@ scroll-behavior: smooth;
 img{
 display: block;
 max-width: 100%;
+border: 1px solid black;
 }
 
 a{
@@ -26,6 +27,295 @@ margin-bottom: 0;
 
 }
 
+
 body{
-margin: 0;
+margin: 12px;
+background-color: #ECE6E6;
 }
+
+.header{
+display: flex;
+flex-direction: column;
+align-items: end;
+gap: 12px;
+text-align: right;
+font-family: "Manrope", sans-serif;
+font-size: 16px;
+font-weight: 300;
+letter-spacing: 1.92px;
+margin-top: 24px;
+}
+
+
+    
+
+.menu{
+display: flex;
+flex-direction: column ;
+padding-top: 24px;
+padding-bottom: 10px;
+gap: 12px;
+position: relative;
+}
+
+.logo{
+width: 35.95px;
+height: 134.11px;
+border: none;
+}
+
+@media screen and (width > 768px) {
+    .header{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    }
+    .menu{
+    flex-direction: row;
+    gap:36px;
+    position: relative;
+    
+    }
+    .logo{
+     width: 110.85px;
+     height: 413.51px;
+     position: absolute;
+     margin-top: 900px;
+     margin-left: 400px;
+    }
+}
+
+.container{
+display: flex;
+gap: 10px;
+width: auto;
+}
+
+.home-img-1{
+width: 185px;
+height: 305px;
+background-image: url(../assets/images/Majori.webp);
+background-position: center;
+background-size: cover;
+border: 1px solid black;
+position: absolute;
+margin-top: -315px;
+padding-top: 12px;
+}
+
+.grid{
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 10px;    
+}
+
+.home-img-2{
+width: 185px;
+height: 317px;
+background-image: url(../assets/images/sakei.webp);
+background-size: cover;
+background-position: center;
+border: 1px solid black;
+}
+
+.home-img-3{
+background-image: url(../assets/images/Sofa\ Lestat.webp);
+background-size: cover;
+background-position: center;
+border: 1px solid black;
+
+}
+
+@media screen and (width > 768px) {
+.home-img-1{
+    width: 458px;
+    height: 896px;
+    background-image: url(../assets/images/Majori.webp);
+    background-position: center;
+    background-size: cover;
+    border: 1px solid black;
+    position: absolute;
+    margin-top: 0px;
+    padding-top: 12px;
+    margin-left: 1300px;
+}
+.grid{
+padding-top: 12px;
+}
+.home-img-2{
+  width: 459px;
+  height: 896px;  
+}
+}
+
+/* shop */
+
+.header-shop{
+display: flex;
+flex-direction: column;
+align-items: end;
+gap: 12px;
+text-align: right;
+font-family: "Manrope", sans-serif;
+font-size: 16px;
+font-weight: 300;
+letter-spacing: 1.92px;
+margin-top: 24px;
+margin-left: 300px;
+position: fixed;
+
+}
+.menu-shop{
+    display: flex;
+    flex-direction: column ;
+    padding-top: 24px;
+    padding-bottom: 10px;
+    gap: 12px;
+    position: relative;
+    }
+
+.container{
+display: flex;
+flex-direction: column;
+position: absolute;
+margin-top: 16px;
+margin-left: -13px;
+}
+
+@media screen and (width: 768px){
+
+    
+
+
+.box{
+width: 271px;
+height: 293px;
+border: 1px solid black;
+margin: 10px;
+}
+
+.box2{
+background-image: url(../assets/images/sakei.webp);
+background-position: center;
+background-size: cover;
+}
+.box3{
+background-image: url(../assets/images/Sofa\ Lestat.webp);
+background-position: center;
+background-size: cover;
+}
+
+.box4{
+background-image: url(../assets/images/Angie.webp);
+background-position: center;
+background-size: cover;
+}
+
+.box5{
+background-image: url(../assets/images/Canion.webp);
+background-position: center;
+background-size: cover;
+}
+
+.box6{
+    background-image: url(../assets/images/Blue_siren.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.box7{
+ background-image: url(../assets/images/Drakulia.webp);
+background-position: center;
+background-size: cover;
+}
+
+.box8{
+    background-image: url(../assets/images/Horror.webp);
+    background-position: center;
+    background-size: cover;
+    }
+
+.box9{
+background-image: url(../assets/images/kobold.webp);
+background-position: center;
+background-size: cover;
+}
+
+.box10{
+    background-image: url(../assets/images/Paruple.webp);
+    background-position: center;
+    background-size: cover;
+    }
+
+.box11{
+        background-image: url(../assets/images/Majori.webp);
+        background-position: center;
+        background-size: cover;
+        }
+
+.box12{
+            background-image: url(../assets/images/Edino.webp);
+            background-position: center;
+            background-size: cover;
+            }
+.box13{
+                background-image: url(../assets/images/Casssu.webp);
+                background-position: center;
+                background-size: cover;
+                }
+.box14{
+                    background-image: url(../assets/images/sakei.webp);
+                    background-position: center;
+                    background-size: cover;
+                    }
+.box15{
+                        background-image: url(../assets/images/Sofa\ Lestat.webp);
+                        background-position: center;
+                        background-size: cover;
+                        }
+.box16{
+                            background-image: url(../assets/images/Canion.webp);
+                            background-position: center;
+                            background-size: cover;
+                            }
+.box17{
+                                background-image: url(../assets/images/Drakulia.webp);
+                                background-position: center;
+                                background-size: cover;
+                                }
+.box18{
+                                    background-image: url(../assets/images/Blue_siren.webp);
+                                    background-position: center;
+                                    background-size: cover;
+                                    }
+.box19{
+                                        background-image: url(../assets/images/Kobold.webp);
+                                        background-position: center;
+                                        background-size: cover;
+                                        }
+.box20{
+                                            background-image: url(../assets/images/paruple.webp);
+                                            background-position: center;
+                                            background-size: cover;
+                                            }
+.box21{
+                                                background-image: url(../assets/images/Majori.webp);
+                                                background-position: center;
+                                                background-size: cover;
+                                                }
+.box22{
+                                                    background-image: url(../assets/images/Cartein.webp);
+                                                    background-position: center;
+                                                    background-size: cover;
+                                                    }
+.box23{
+                                                        background-image: url(../assets/images/Seislios.webp);
+                                                        background-position: center;
+                                                        background-size: cover;
+                                                        }
+.box24{
+                                                            background-image: url(../assets/images/Edino.webp);
+                                                            background-position: center;
+                                                            background-size: cover;
+                                                            }
